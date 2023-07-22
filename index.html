@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/722e7337be.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1 class="logo">DHILIPKUMAR</h1>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#whatido">What I Do</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h2>Data Analyst</h2>
+                <h1>HI! I'M <span>DHILIP</span></h1>
+                <p>Analyzing and visualizing data to make better and informed business decisions</p>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/dhilip.jpg" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I'm Dhilipkumar, a recent graduate with a Bachelor of Engineering in Computer Science Engineering.
+                         I'm passionate about working with organisations that want to use their data effectively, from the 
+                         initial concepts of what to measure and how to accurately capture data to the preparation, management,
+                          and impactful presentation of insights. I can support each step of the process to enable your organisation
+                           in making evidence-driven decisions or share insights with new audiences.</p>
+                           <a href="images/Dhilipkumar K K.pdf" class="btn btn2">Download Resume</a>
+                           <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                           </div>
+                           <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>DATA CLEANING</span><br>MicroSoft Excel, Google Sheets</li>
+                                <li><span>DATA ANALYSIS</span><br>Python, R Programming</li>
+                                <li><span>DATA MANAGEMENT</span><br>SQL</li>
+                                <li><span>DATA VISUALIZATION</span><br>Tableau, Power BI</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2019 - 2023</span><br>Velalar College of Engineering and Technology</li>
+                                <li><span>2019</span><br>Malco Vidayalaya Matriculation Higher Secondary School</li>
+                                </ul>
+                                </div>
+                        </div>
+                </div>
+            </div>
+
+<div id="whatido">
+    <div class="container">
+        <h1 class="sub-title">What I Do</h1>
+        <p>My expertise can be used to clean, analyse, interpret and visualize your data. 
+            Conduct comprehensive data analysis to identify key trends, patterns, and insights, 
+            enabling data-driven decision-making and strategic planning</p>
+        <div class="whatido-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Data Clean</h2>
+            <p>Removing duplicate records, Handling missing values, Standardizing and transforming data, Checking data integrity.
+            </p>
+          </div> 
+          <div>
+            <i class="fa-solid fa-magnifying-glass-chart"></i>
+            <h2>Data Process</h2>
+            <p>Exploratory Data Analysis (EDA), Statistical Analysis, Data Modeling and Machine Learning,  Discriptive Analysis.
+            </p>
+          </div> 
+          <div>
+            <i class="fa-solid fa-chart-simple"></i>
+            <h2>Data Visualize</h2>
+            <p>Identifying Correlations and Trends, Interactive Exploration, Comparisons and Benchmarks, Dashboards and Reporting.
+            </p>
+          </div> 
+        </div>
+    </div>
+</div>
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/Debt.png">
+                <div class="layer">
+                    <h3>World Debt Statistics</h3>
+                    <p>Debt among the world countries were examined using SQL, then insights were identified and dashboard were created in Tableau.</p>
+                    <a href="https://github.com/DhilipkumarKK/International_debt_statistics"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/Playstore.png">
+                <div class="layer">
+                    <h3>Sentiment Analysis on Playstore</h3>
+                    <p>In this project, I cleaned and analyzed data on Goolge Playstores Android Apps and implemented regression module on user's review.</p>
+                    <a href="https://github.com/DhilipkumarKK/The-Android-App-Market_on-Google-Play"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/Covid19.png">
+                <div class="layer">
+                    <h3>Covid 19 Analysis</h3>
+                    <p>Data about Covid 19 were examined and analysised, then interactive dashboard visualization were made in Tableau. </p>
+                    <a href="https://github.com/DhilipkumarKK/Covid_19_Portfolio"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+           
+            </div>
+        </div>
+        <a href="https://github.com/DhilipkumarKK/Portfolio_Projects" class="btn">See More</a>
+    </div>
+</div>
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>kkdhilipkumar0808@gmail.com</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/dhilipkumar-k-k-bb6a60192/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/DhilipkumarKK"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://medium.com/@kkdhilipkumar0808"><i class="fa fa-medium"></i></a>
+                    <a href="https://www.kaggle.com/dhilipkumarkk/Home"><i class="fa-brands fa-kaggle"></i></a>
+                    <a href="https://public.tableau.com/app/profile/dhilipkumar.k.k"><i class="fa-solid fa-t"></i></a>
+                </div>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Dhilip. Made with <i class="fa-solid fa-heart"></i> by Me</p>
+    </div>
+</div>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwCryXU3_n4cLs4ui8sm8gfH7LqA-0qFit23nbommnEow7gMEBVFWt8srqw4S5Z1XSpyA/exec'
+    const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message Sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
